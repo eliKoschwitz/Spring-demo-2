@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 public class Customer {
     private String name;
     private Address address;
+    private int age;
 
     public Customer(String name, Address address) {
         this.name = name;
